@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.yudong80.rxandroid2.chapter01.GugudanFragment;
+import com.yudong80.rxandroid2.chapter02.OpenWeatherMapFragment;
 
 import static android.R.attr.id;
 
@@ -21,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //moveToFragment(MainFragment.newInstance());
-        moveToFragment(GugudanFragment.newInstance());
+        //moveToFragment(GugudanFragment.newInstance());
+        moveToFragment(OpenWeatherMapFragment.newInstance());
     }
 
     @Override

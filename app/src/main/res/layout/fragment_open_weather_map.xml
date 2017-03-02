@@ -26,20 +26,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gugudan Number : " />
+            android:text="City Name : " />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="3"
+            android:text="London"
             android:ems="10"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:id="@+id/city" />
 
         <Button
-            android:text="Run Gugudan"
+            android:text="Get Current Weather"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/city"
